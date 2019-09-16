@@ -3,7 +3,7 @@ package com.company;
 public class Taylor
 {
     public static double calculate (int k, double x){
-        int step = 0;
+        int step = 1;
         double resultOfStep = 0.0;
         double result = 0.0;
         do {
