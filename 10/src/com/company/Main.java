@@ -13,7 +13,7 @@ public class Main{
             Scanner in = new Scanner(System.in);
             System.out.println("Input k: ");
             k = in.nextInt();
-            System.out.println("Russian suck's ");
+            System.out.println("Input x: ");
             x = in.nextDouble();
             if (x > 1 || x < -1){
                 System.out.println("Error in Inputing");
