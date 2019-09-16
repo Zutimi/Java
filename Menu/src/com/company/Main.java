@@ -37,17 +37,22 @@ public class Main {
                     break;
 
                 case 2:
+                    Scanner ss = new Scanner(System.in);
+
                     System.out.println("Input string to reverse");
-                    mainString = in.nextLine();
+                    mainString = ss.nextLine();
                     String b = new StringBuffer(mainString).reverse().toString();
                     System.out.println(b);
                     break;
 
                 case 3:
+                    Scanner sc = new Scanner (System.in);
+                    
                     System.out.println("Input string main string");
-                    mainString = in.nextLine();
+                    mainString = sc.nextLine();
                     System.out.println("Input substring");
-                    subString = in.nextLine();
+                    subString = sc.nextLine();
+                    
                     boolean isContain = mainString.contains(subString);
 
                     if (isContain){
