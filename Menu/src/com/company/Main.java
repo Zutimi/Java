@@ -26,7 +26,7 @@ public class Main {
 
                     System.out.println("Input your number");
                     numberToFactorial = in.nextInt();
-                    long factorial;
+                    long factorial = 1;
 
                     for (int i = 1; i <= numberToFactorial; i++)
                     {
