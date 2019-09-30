@@ -11,7 +11,8 @@ public class Main {
         System.out.printf("Input your string =:");
 
         for(;;) {
-            System.out.printf("%s ", new StringBuffer(word = in.next()).reverse().toString());
+            word = in.next();
+            System.out.printf("%s ", new StringBuffer(word).reverse().toString());
 
             if (word.equals("0")){
                 break;
